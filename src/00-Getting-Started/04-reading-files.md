@@ -262,7 +262,7 @@ Put the screenshot image in the following path, which assumes we're in the root 
 
 Use a relative filepath in the Markdown image to do so.
 
-ADD_YOUR_IMG_HERE
+ADD_YOUR_IMG_HERE [Alt text](./../assets/images/api.webp/)
 
 ## E2. Link to 0.3 Using the Command Line
 
@@ -295,3 +295,10 @@ ENTER_IMG_HERE
 2. We won't require any peer responses yet, since we're still getting the hang of git/Github. But, in the future, some chapters will include a peer response.
 3. Submit the PR link in Moodle, when you're ready.
     <p class="warning">Make sure that your repo is set to being Public.</p>
+
+## Practice in Class
+
+1. List Item 1
+    1.    Sublist 1
+2. List Item 2
+3. List Item 3
