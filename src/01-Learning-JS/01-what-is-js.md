@@ -207,8 +207,8 @@ There are other conventions and rules, but we don't need to belabor them right n
  *    that will make sure each favorite food is
  *    logged to the correct place in the console.
 **/
-___ _faveFood1_ = "Enter_#1_Favorite_Food_Here"
-___ _faveFood2_ = "Enter_#2_Favorite_Food_Here"
+let _faveFood1_ = "Calzone"
+let _faveFood2_ = "Pizza"
 
 console.log(
   "Ok, so y'all know that my #1 favorite food is ",
@@ -218,7 +218,7 @@ console.log(
 
 if (_faveFood2_.length > 0) {
   // Redeclare _faveFood1_ within this scope only
-  ___ _faveFood1_ = "Enter__NEW__#1_Favorite_Food_Here"
+  let _faveFood1_ = "Apples"
 
   console.log(
     "jk! ",
