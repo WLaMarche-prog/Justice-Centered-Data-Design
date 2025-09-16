@@ -215,8 +215,24 @@ First, go back to the last chapter and grab the suite of primitives that you cre
 4. Print them all to the console with `console.log()`.
 5. Check your work, as you go, by opening the browser console with the **Inspect Element** tool.
 
-```javascript
-// Write your code in here
+```js
+let grassType = "Chespin"
+let pokedexNumber = 1
+let isFireType = false
+let starterPokemon = true
+let zaMega = null
+let regionalEvolution 
+let chespin = {pType: "Grass", pNum: "1", evolves: "true"}
+```
+
+```js
+console.log("String grassType:", grassType)
+console.log("Number pokedexNumber:", pokedexNumber)
+console.log("boolean isFireType:", isFireType)
+console.log("boolean starterPokemon:", starterPokemon)
+console.log("null zaMega:", zaMega)
+console.log("undefined regionalEvolution:", regionalEvolution)
+console.log("chespin:", chespin)
 ```
 
 ## Submission
